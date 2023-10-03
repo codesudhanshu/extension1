@@ -76,7 +76,7 @@ document.body.appendChild(extensionDiv);
 
 // Create an image element to act as the extension button
 const extensionButton = document.createElement('img');
-extensionButton.src = chrome.extension.getURL('sudh.png');
+extensionButton.src = chrome.extension.getURL('');
 extensionButton.style.position = 'fixed';
 extensionButton.style.top = '20px';
 extensionButton.style.right = '20px';
